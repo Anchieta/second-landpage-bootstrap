@@ -3,3 +3,6 @@
 body {
     background-color: var(--variable-exemplo);
 }
+hero {
+    background: url('https://via.placeholder.com/1600x700') no-repeat center center
+}
