@@ -5,9 +5,8 @@
     cor e fonte em diversos lugares diferentes. É como no Figma */
 
 :root {
-    --variable-exemplo: #ffffff
+    --variable-exemplo: #ffffff;
 }
-
 
 /*  reset css */
 /*  Remove qualquer estilo que veio de fábrica */
