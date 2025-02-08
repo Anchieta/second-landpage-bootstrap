@@ -1,0 +1,20 @@
+/* contro + ; => faz esse efeito de comentário */
+/* set de root */
+/*  uso o root para criar variáveis para de cor, font, etc, etc 
+    para usar no site, de modo que eu não preciso criar a mesma
+    cor e fonte em diversos lugares diferentes. É como no Figma */
+
+:root {
+    --variable-exemplo: #ffffff
+}
+
+
+/*  reset css */
+/*  Remove qualquer estilo que veio de fábrica */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+    box-sizing: border-box; 
+}
