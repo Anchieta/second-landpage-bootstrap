@@ -39,6 +39,125 @@
                 <a href="#servicos" class="btn btn-primary btn-lg">Saiba mais</a>
         </div>
       </section>
+
+      <!-- Card Serviços-->
+       <!-- my-5 significa margem top e bottom de 5px-->
+       <section id="servicos" class="container my-5"> 
+         <!-- mb-4 => Margem bottom -->   
+         <h2 class="text-center mb-4">Nossos Serviços</h2>
+         <div class="row text-center">
+
+            <!-- Card 1 -->
+             <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="" class="card-image-top" alt="Serviço 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 1</h5>
+                        <p class="card-text">
+                            Breve descrição sobre esse serviço (o Serviço 1)    
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Abre modal 1</button>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="" class="card-image-top" alt="Serviço 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 2</h5>
+                        <p class="card-text">
+                            Breve descrição sobre esse serviço (o Serviço 2)    
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Abre modal 2</button>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="" class="card-image-top" alt="Serviço 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 3</h5>
+                        <p class="card-text">
+                            Breve descrição sobre esse serviço (o Serviço 3)    
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Abre modal 3</button>
+                    </div>
+                </div>
+             </div>
+
+         </div>
+       </section>
+
+       <!-- Modais -->
+       <!-- Modal 1 -->
+       <div class="modal fade" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Instrutor de TI</h5>
+                        <button type="button" class="bnt-close" data-bs-dismiss="modal">X</button>
+                    </div>
+                    <div class="modal-body">
+                        Mais detalhes sobre o serviço
+                    </div>
+                </div>
+            </div>
+       </div> 
+
+       <!-- Modal 2 -->
+       <div class="modal fade" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cliente de TI</h5>
+                    <button type="button" class="bnt-close" data-bs-dismiss="modal">X</button>
+                </div>
+                <div class="modal-body">
+                    Mais detalhes sobre o serviço
+                </div>
+            </div>
+        </div>
+        </div>
+   
+   <!-- Carrossel -->
+    <!-- Carrossel de Depoimentos -->
+    <section id="depoimentos" class="container my-5">
+        <h2 class="text-center mb-4">Depoimentos</h2>
+        <div id="carrosselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <p class="lead">"Serviço incrível! Melhor decisão que tomei."</p>
+                    <small>- Cliente 1</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <p class="lead">"Profissionais muito capacitados. Recomendo!"</p>
+                    <small>- Cliente 2</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <p class="lead">"Empresa excelente, voltarei a fazer negócios!"</p>
+                    <small>- Cliente 3</small>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselDepoimentos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselDepoimentos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        <p>📍 Endereço: Rua Exemplo, 123 - Cidade</p>
+        <p>📧 Email: contato@meusite.com</p>
+        <p>🔗 Redes Sociais: <a href="#" class="text-white">Instagram</a> | <a href="#" class="text-white">LinkedIn</a></p>
+    </footer>
     
 </body>
 </html>
